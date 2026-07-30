@@ -1,0 +1,52 @@
+# ==============================
+# Jupyter Notebooks & Python cache
+# ==============================
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ==============================
+# Environment & Dependencies
+# ==============================
+env/
+venv/
+myenv/
+.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# Data files (IMPORTANT for Kaggle datasets)
+# ==============================
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+SMSSpamCollection
+sms+spam+collection
+data/
+!data/.gitkeep   # allows to keep an empty 'data' folder in the repo
+
+# ==============================
+# IDE / Editor files
+# ==============================
+.vscode
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==============================
+# Model files
+# ==============================
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.onnx
+models/
