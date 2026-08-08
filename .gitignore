@@ -1,6 +1,4 @@
-# ==============================
 # Jupyter Notebooks & Python cache
-# ==============================
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
@@ -8,9 +6,7 @@ __pycache__/
 *.pyd
 .Python
 
-# ==============================
 # Environment & Dependencies
-# ==============================
 env/
 venv/
 myenv/
@@ -19,34 +15,17 @@ myenv/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# ==============================
-# Data files (IMPORTANT for Kaggle datasets)
-# ==============================
-*.csv
-*.xlsx
-*.xls
-*.zip
-*.tar.gz
-SMSSpamCollection
-sms+spam+collection
-data/
-!data/.gitkeep   # allows to keep an empty 'data' folder in the repo
+# Training checkpoints (large, reproducible from notebook, not needed for deployment)
+notebooks/results/
 
-# ==============================
 # IDE / Editor files
-# ==============================
 .vscode
 .idea/
 *.swp
 *.swo
+*.save
 .DS_Store
 
-# ==============================
-# Model files
-# ==============================
-*.pkl
-*.joblib
-*.h5
+# Model files — keep the two deployment artifacts, ignore other formats
 *.pb
 *.onnx
-models/
