@@ -24,6 +24,7 @@ spam-detection-nlp/
 │   ├── 01_baseline_tfidf_logreg.ipynb
 │   └── 02_transformer_comparison.ipynb
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -76,3 +77,11 @@ streamlit run app.py
 ## Tech stack
 
 Python, pandas, scikit-learn, NLTK, HuggingFace Transformers, PyTorch, Streamlit
+
+
+## License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+## Author: @g30613740 Philip K.
+
+## GitHub: https://github.com/g30613740/spam_detection_nlp
